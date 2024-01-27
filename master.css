@@ -1,0 +1,95 @@
+header{
+       position: fixed;
+      top: -15px; 
+    left: 0px; 
+    width: 95%;
+     padding: 20px 40px;  
+   
+    display: flex; 
+      align-items: center; 
+     justify-content: space-between;   
+     background-color: #f6b17aa3;
+     z-index: 100;
+}
+.name{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+  font-family: 'Pacifico', cursive;  
+}
+.navbar a{
+    float: right;
+    margin-left: 80px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.start{
+     display: flex;
+    align-items: center; 
+    min-height: 100vh;
+    background-image :linear-gradient(to top, rgb(0,0,0,0.5)70%, rgb(0,0,0,0.5)30%),url(pic/🤍.jpg);
+      background-size: 100% 80%; 
+      background-position: 5px 89px;     
+    background-repeat: no-repeat;
+    width: 100%;
+} 
+.shop{
+  width: 90%;
+   position: absolute;
+  line-height: 50px; 
+}
+.shop h3{
+  font-size: 40px;
+  position: absolute;
+    bottom: -20px;
+    left: 20px; 
+    color: antiquewhite;
+}
+.shop p{
+  font-size:25px ;
+  width: 50%;
+  position: absolute;
+   top: -30px;
+   left: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  color:antiquewhite;
+}
+ .one{
+   background-color: #f6b17aa3; 
+   width: 60%; 
+   text-align: center;
+   height: 25%;
+   position: absolute;
+   left: 300px;
+   border: none;
+   border-radius: 20px;
+   margin-top: 5px;
+ } 
+ .one .p2{
+  font-weight: bold;
+  line-height: 25px;
+ }
+.img {
+    display: flex;  
+    justify-content: center;  
+   align-items: center; 
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 1380px;
+  height: 100vh;
+ 
+}   
+.card{
+  display: flex;
+    width:0 px;
+    gap: 25px;
+    margin-top: -9px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    top: 1000px;
+}
